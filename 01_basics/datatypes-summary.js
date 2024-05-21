@@ -1,4 +1,4 @@
-// premitive
+// Primitive
 // 7 types : String, Number, Boolean, null, undefined,  Symbol, BigInt
 
 
@@ -23,7 +23,10 @@ console.log(typeof bigNumber);
 console.log(typeof outSideTemp);
 
 console.log(typeof scoreValue);
-// non-premitive or refrence type
+
+
+
+// Non-primitive or Refrence type
 // Array, Objects, Functions
 
 const heros =["Shaktiman", "Nagraj", "Doga"];
@@ -61,3 +64,28 @@ console.log(typeof myObj);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "SarojChauhan"
+let anotherName = myYoutubename
+anotherName = "designersaroj"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "saroj@gmail.com",
+    UPI: "user@ybl"
+
+}
+let userTwo = userOne
+
+userTwo.email = "parul@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
