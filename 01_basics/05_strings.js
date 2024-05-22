@@ -36,3 +36,4 @@ console.log(url.includes('hello'))
 console.log(gameName.split('-'))
 
 
+// we can study more string function from mdn
