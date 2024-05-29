@@ -54,6 +54,33 @@ users[1].id
 
 // console.log(Object.keys(tindorUser));
 // console.log(Object.values(tindorUser));
-console.log(Object.entries(tindorUser));
+// console.log(Object.entries(tindorUser));
 
-console.log(tindorUser.hasOwnProperty('isLoggedIn'));
+// console.log(tindorUser.hasOwnProperty('isLoggedIn')); 
+
+
+const course = {
+    course : "js in hindi",
+    price: 999,
+    courseinstructor: "Saroj"
+}
+
+course.courseinstructor
+
+const {courseinstructor: instructor} = course
+
+// console.log(courseinstructor);
+console.log(instructor);
+
+// {
+//     "name" : "Saroj",
+//     "course" : "javascript",
+//     "Price" : "free"
+
+// }
+
+[
+    {},
+    {},
+    {}
+]
