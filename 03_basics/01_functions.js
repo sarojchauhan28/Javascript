@@ -50,21 +50,21 @@ function calculateCartPrice(val1, val2, ...num1){
 
 const user = {
     username :"Saroj",
-    prices : 199
+    price : 199
 }
 function handleObject(anyObject){
     console.log(`user name is ${anyObject.username} and price is ${anyObject.price}`);
-    {handleObject.Price}
+    {handleObject.price}
 }
 // handleObject(user)
 handleObject({
     username:"Sam",
-    price: 299
+    prices: 599
 });
 
 const myNewArray = [200, 400, 500, 800]
 function returnSeconbdValue(getArray){
-    return getArray[1]
+    return getArray[1, 3]
 }
 
 // console.log(returnSeconbdValue(myNewArray));
